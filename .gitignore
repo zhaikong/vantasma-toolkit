@@ -14,15 +14,12 @@ venv/
 .LSOverride
 
 # Editor
-.vscode/
 .idea/
 *.swp
 *~
 .claude/
 
 # 密钥 / 凭据（绝不入库）
-.env
-.env.*
 *.env
 secrets.json
 credentials.json
@@ -58,3 +55,4 @@ dist-ssr/
 .wrangler-functions-test/
 .netlify/
 third_party_sources/
+config.bat
