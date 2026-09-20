@@ -2,18 +2,18 @@
   "name": "xiangrui-whiteboard-recorder",
   "private": false,
   "version": "0.0.0",
-  "description": "祥瑞白板录制工具，一个面向课程讲解和异步沟通的白板录制工作台。",
+  "description": "\u7965\u745e\u767d\u677f\u5f55\u5236\u5de5\u5177\uff0c\u4e00\u4e2a\u9762\u5411\u8bfe\u7a0b\u8bb2\u89e3\u548c\u5f02\u6b65\u6c9f\u901a\u7684\u767d\u677f\u5f55\u5236\u5de5\u4f5c\u53f0\u3002",
   "homepage": "https://whiteboard.xiangruiai.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/xiangruiai/vantasma-toolkit.git",
     "directory": "apps/whiteboard-recorder"
   },
-  "author": "xiangruiai (李祥瑞 / 万涂幻象)",
+  "author": "xiangruiai (\u674e\u7965\u745e / \u4e07\u6d82\u5e7b\u8c61)",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node api.js && vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
